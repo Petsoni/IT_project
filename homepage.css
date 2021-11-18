@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mukta', sans-serif;
+    caret-color: transparent;
 }
 
 html {
@@ -12,9 +13,7 @@ html {
   --gradient: linear-gradient(
     45deg, 
     #fae900,
-    /* #a2d5c6, */
     #077b8a,
-    /* #5c3c92, */
     #000000
   );
 

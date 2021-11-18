@@ -4,15 +4,38 @@
     font-family: 'Mukta', sans-serif;
 }
 
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position:right;
+    }
+}
+
+:root {
+--gradient: linear-gradient(
+    45deg, 
+    #fae900,
+    #5c3c92,
+    #000000
+);
+  
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body{
-    background-image: repeating-linear-gradient(rgb(0, 0, 0), rgb(251, 255, 33));
+    background-image: var(--gradient);
+    animation: bg-animation 3s ease-in-out infinite alternate;
     background-position: cover;
     background-position: center;
     background-size: cover;
+    position: relative;
+    background-position: center;
+    background-size: 250%;
     position: relative;
     background-attachment: fixed;
     transition: 500ms ease-in-out;
@@ -43,39 +66,40 @@ body{
 }
 
 /*Homepage button*/
-
 @keyframes float {
 	0% {
-    	transform: translateY(0px);
+    	transform: translateY(10px);
 	}
 	50% {
-		transform: translateY(-20px);
+		transform: translateY(-10px);
 	}
 	100% {
-		transform: translateY(0px);
+		transform: translateY(10px);
 	}
 }
 
 .back-btn{
-    width: 10%;
+    width: 15%;
     text-align: center;
     animation: float 2s ease-in-out infinite;
 }
 
-.back-btn a{
+.back-btn button{
     text-decoration: none !important;
     color: black;
+    width: 80px;
+    height: 70px;
     font-size: 30px;
     align-items: center;
     border: 3px solid black;
     border-radius: 15px;
-    padding: 1rem;
     transition: 300ms ease-in-out;
     
 }
 
-.back-btn a:hover{
+.back-btn button:hover{
     background: white;
     color: black;
+    cursor: pointer;
     transition: 300ms ease-in-out;
 }
