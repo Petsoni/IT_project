@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
     <style type="text/css"></style>
     <title>Sign up</title>
 </head>
+
 <body>
 
     <section class=" header">
@@ -21,35 +23,39 @@
             <a href="homepage.html">eSports Tracker</a>
             <div class="nav-links" id="navLinks">
                 <ul>
-                    <li><a href="#news-sec">NEWS</a></li>
-                    <li><a href="#games-sec">GAMES</a></li>
                     <li><a href="../About3/about3.html">ABOUT</a></li>
                     <li><a href="../homepage.html">HOMEPAGE</a></li>
                 </ul>
             </div>
         </nav>
 
-        <div class="text-box">
-            <h1 class="un">Become one of the trackers</h1> 
-            <br>
-            <a href="#">
-                <svg>
-                    <rect></rect>
-                </svg>
-                Sign up
-            </a>
-            <br>
+        <div class="container">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onClick="login()">Login</button>
+                    <button type="button" class="toggle-btn" onClick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="Email" required>
+                    <input type="text" class="input-field" placeholder="Password" required> 
+                    <input type="checkbox" class="check-box"><span>Remeber Password</span>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="text" class="input-field" placeholder="Email" required>
+                    <input type="text" class="input-field" placeholder="Password" required> 
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+
         </div>
-
-        <div>
-
-        </div>
-
-    </section>
-
-    <section>
-        
     </section>
     
+    <script src="signup.js"></script>
+
 </body>
+
 </html>
