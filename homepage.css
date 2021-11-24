@@ -477,14 +477,68 @@ p{
     width: 100%;
 }
 
-/*Contact us*/
+/*Careers*/
 
-.contactus h1{
+@keyframes text-color {
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+.careers{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.careers h1{
+    text-align: center;
     margin: 1em;
 }
 
-/*Icons Contact us*/
+.careers a{
+    flex-basis: 31%;
+    background: rgb(149, 149, 149);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 1s;
+    opacity: 1;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
 
+.careers a:hover{
+    border-color: tan;
+    color: white;
+    background-image: var(--gradient);
+    background-position: center;
+    background-size: 350%;
+    animation: text-color 1s ease infinite alternate;
+    background-attachment: fixed;
+    text-decoration-color: rgb(201, 148, 2);
+    padding: 20px 30px;
+    transition: 500ms;
+    opacity: 1;
+}
+
+
+
+/*Contact us*/
+.contactus h1{
+    margin: 1em;
+    /*background-color: red;*/
+}
+
+/*Icons Contact us*/
 .contact-icons{
     margin: 0;
     padding-left: 5em;
