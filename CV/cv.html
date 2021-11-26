@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+	      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="cv.css">
+	<title>CV</title>
+</head>
+
+<body>
+
+<section>
+	<h1>CV submission</h1>
+</section>
+
+<form>
+	<ul>
+		<li>
+			<input type="text" placeholder="Name" id="name">
+			<input type="text" placeholder="Surname" id="surname">
+			<input type="email" placeholder="Email" id="email">
+		</li>
+	</ul>
+	<ul>
+		<li>
+			<label for="file-upload" class="custom-file-upload">
+				Upload a CV document
+			</label>
+			<input id="file-upload" type="file">
+		</li>
+	</ul>
+	<h3>Path:</h3>
+	<p id="path"></p>
+
+
+	<button type="button" onclick="clicked()" class="submit-btn" value="Button">Submit</button>
+
+
+</form>
+
+<script src="cv.js"></script>
+
+</body>
+</html>

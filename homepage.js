@@ -1,3 +1,7 @@
+function $(htmlBody) {
+    
+}
+
 $("button").click(function () {
     $('html,body').animate({
             scrollTop: $(".news").offset().top

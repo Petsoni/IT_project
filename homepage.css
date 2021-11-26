@@ -478,7 +478,6 @@ p{
 }
 
 /*Careers*/
-
 @keyframes text-color {
     0%{
         color: black;
@@ -502,7 +501,7 @@ p{
 
 .careers a{
     flex-basis: 31%;
-    background: rgb(149, 149, 149);
+    background: transparent;
     border-radius: 10px;
     margin-bottom: 1%;
     padding: 20px 12px;
@@ -519,7 +518,7 @@ p{
 .careers a:hover{
     border-color: tan;
     color: white;
-    background-image: var(--gradient);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(255, 0, 0));
     background-position: center;
     background-size: 350%;
     animation: text-color 1s ease infinite alternate;

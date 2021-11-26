@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Mukta', sans-serif;
+}
+
+:root {
+    --gradient: linear-gradient(
+            45deg,
+            #2b2b2b,
+            #3d2168)
+}
+
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position:right;
+    }
+}
+
+body{
+    /*display: flex;*/
+    background-image: var(--gradient);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+    background-position: center;
+    background-size: 150%;
+    /*position: relative;*/
+    animation: bg-animation 3s ease-in-out infinite alternate;
+    background-attachment: fixed;
+    /*background: rgb(57, 57, 57);*/
+
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(83, 199, 220), rgb(97, 70, 177));
+    clip-path: circle(30% at right 70%);
+}
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-170deg, rgb(220, 83, 145), #fae900);
+    clip-path: circle(20% at 10% 10%);
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 2em;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+    position: relative;
+    min-height: 4vh;
+    z-index: 1;
+    border: 5px;
+    margin: 5em;
+
+}
+
+label input #cv-file{
+    margin: 2px;
+    padding: 5em;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+
+}
+input[type="file"] {
+    display: none;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.custom-file-upload {
+    border: 3px solid #000000;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 4em;
+    transition: 500ms;
+
+}
+.custom-file-upload:hover{
+    border: 4px solid #ffffff;
+    padding: 10px 15px;
+    color: #ffffff;
+    transition: 500ms;
+
+}
+
+p {
+    min-height: 5vh;
+    min-width: 10vh;
+    color: white;
+}
+
+
+h3{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 3px;
+
+}
+
+p{
+    color: white;
+    margin: 1em;
+    font-size: 30px;
+}
+
+.submit-btn{
+    min-height: 5vh;
+    min-width: 10vh;
+    color: white;
+    background: #2885d5;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px rgba(180, 180, 180, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+    transition: 200ms;
+}
+
+.submit-btn:hover{
+    min-width: 15vh;
+    color: black;
+    background-image: linear-gradient(rgba(199, 199, 199, 0.3), rgb(238, 238, 238));
+    transition: 200ms;
+}
