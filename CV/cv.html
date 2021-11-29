@@ -16,16 +16,20 @@
 
 <section>
 	<h1>CV submission</h1>
+	<p>Apply your CV document and send it to us and we will get back to you as soon as possible</p>
 </section>
 
 <form>
 	<ul>
 		<li>
-			<input type="text" placeholder="Name" id="name">
-			<input type="text" placeholder="Surname" id="surname">
-			<input type="email" placeholder="Email" id="email">
+			<form class="input-group">
+			<input type="text" class="input-field" placeholder="Name" id="name">
+			<input type="text" class="input-field" placeholder="Surname" id="surname">
+			<input type="email" class="input-field" placeholder="Email" id="email">
+			</form>
 		</li>
 	</ul>
+
 	<ul>
 		<li>
 			<label for="file-upload" class="custom-file-upload">
@@ -42,6 +46,10 @@
 
 
 </form>
+
+<section class="back-btn">
+	<button onClick="goBack()"><arrow_back_ios_new class="material-icons">arrow_back_ios_new</arrow_back_ios_new></button>
+</section>
 
 <script src="cv.js"></script>
 

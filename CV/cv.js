@@ -21,5 +21,10 @@ function clicked() {
 		document.getElementById('name').value = "";
 		document.getElementById('surname').value = "";
 		document.getElementById('email').value = "";
+		document.getElementById('path').innerHTML = "";
 	}
+}
+
+function goBack() {
+	window.history.back();
 }

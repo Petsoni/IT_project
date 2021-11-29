@@ -15,10 +15,9 @@
 
 :root {
 --gradient: linear-gradient(
-    45deg, 
-    #fae900,
-    #5c3c92,
-    #000000
+    45deg,
+    #5ee3e8,
+    #dc50ca
 );
   
 }
@@ -31,10 +30,6 @@ body{
     background-image: var(--gradient);
     animation: bg-animation 3s ease-in-out infinite alternate;
     background-position: cover;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-position: center;
     background-size: 250%;
     position: relative;
     background-attachment: fixed;
@@ -45,17 +40,16 @@ body{
 .about-us{
     text-align: center;
     margin: 15rem;
-    color:black;
+    color: #363636;
     position: relative;
    
 }
 
 .about-us h1{
     font-size: 70px;
-    color:white;
+    color: #494949;
     text-decoration: underline;
     font-style: italic;
-    transition: 1000ms ease-in-out;
 }
 
 .about-us p{
@@ -65,30 +59,18 @@ body{
 
 }
 
-/*Homepage button*/
-@keyframes float {
-	0% {
-    	transform: translateY(10px);
-	}
-	50% {
-		transform: translateY(-10px);
-	}
-	100% {
-		transform: translateY(10px);
-	}
-}
 
 .back-btn{
     width: 15%;
     text-align: center;
-    animation: float 2s ease-in-out infinite;
 }
 
 .back-btn button{
     text-decoration: none !important;
     color: black;
     width: 80px;
-    height: 70px;
+    height: 80px;
+    margin-top: 0;
     font-size: 30px;
     align-items: center;
     border: 3px solid black;
@@ -102,4 +84,22 @@ body{
     color: black;
     cursor: pointer;
     transition: 300ms ease-in-out;
+}
+
+span.link{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.displayMe{
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    z-index: 100;
+}
+
+.displayMe img{
+    width: 100%;
+    box-shadow: 2px 2px 5px;
 }

@@ -8,7 +8,7 @@
 :root {
     --gradient: linear-gradient(
             45deg,
-            #2b2b2b,
+            #b6b6b6,
             #3d2168)
 }
 
@@ -29,7 +29,7 @@ body{
     align-items: center;
     transition: 1s;
     background-position: center;
-    background-size: 150%;
+    background-size: 250%;
     /*position: relative;*/
     animation: bg-animation 3s ease-in-out infinite alternate;
     background-attachment: fixed;
@@ -46,6 +46,7 @@ body::before{
     height: 100%;
     background: linear-gradient(rgb(83, 199, 220), rgb(97, 70, 177));
     clip-path: circle(30% at right 70%);
+    z-index: -1;
 }
 body::after{
     content: '';
@@ -73,7 +74,37 @@ input{
     z-index: 1;
     border: 5px;
     margin: 5em;
+    background: transparent;
+    color: white;
+}
 
+.input-field{
+    width: 15%;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 3em 2em;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px solid #ffffff;
+    outline: none;
+    background: transparent;
+
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #fafafa;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 500ms;
 }
 
 label input #cv-file{
@@ -102,10 +133,11 @@ input[type="file"] {
     padding: 10px 15px;
     color: #ffffff;
     transition: 500ms;
+    background: rgba(0, 252, 176, 0.34);
 
 }
 
-p {
+#path {
     min-height: 5vh;
     min-width: 10vh;
     color: white;
@@ -125,8 +157,12 @@ h3{
 
 p{
     color: white;
-    margin: 1em;
-    font-size: 30px;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+#path{
+    z-index: 1;
 }
 
 .submit-btn{
@@ -147,4 +183,34 @@ p{
     color: black;
     background-image: linear-gradient(rgba(199, 199, 199, 0.3), rgb(238, 238, 238));
     transition: 200ms;
+}
+
+.back-btn{
+    width: 15%;
+    margin-top: 2em;
+    text-align: center;
+    animation: float 2s ease-in-out infinite;
+}
+
+.back-btn button{
+    text-decoration: none !important;
+    color: black;
+    width: 80px;
+    height: 80px;
+    margin: 1em;
+    font-size: 30px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: 300ms ease-in-out;
+
+}
+
+.back-btn button:hover{
+    background: white;
+    color: black;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
 }
