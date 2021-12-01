@@ -509,7 +509,7 @@ p{
     cursor: pointer;
     transition: 1s;
     opacity: 1;
-    box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.6);
     text-decoration: none;
     font-size: 40px;
     color: black;
@@ -518,8 +518,9 @@ p{
 .careers a:hover{
     border-color: tan;
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(255, 0, 0));
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(160, 239, 0));
     background-position: center;
+    box-shadow: 4px 4px 5px 0 rgba(0,0,0,.1), 0 1px 10px 10px rgba(0,0,0,.5);
     background-size: 350%;
     animation: text-color 1s ease infinite alternate;
     background-attachment: fixed;
