@@ -12,9 +12,9 @@ html {
 :root {
   --gradient: linear-gradient(
     45deg, 
-    #fae900,
-    #077b8a,
-    #000000
+    #D2122E,
+    #002D62,
+    #43cce7
   );
 
   }
@@ -34,7 +34,7 @@ html {
     width: 100%;
     background-image: var(--gradient);
     background-position: center;
-    background-size: 150%;
+    background-size: 250%;
     position: relative;
     animation: bg-animation 3s ease-in-out infinite alternate;
     background-attachment: fixed;
@@ -51,13 +51,13 @@ nav{
 
 @keyframes under{
     0%{
-        text-decoration-color: transparent;
-    }
-    50%{
         text-decoration-color: var(--gradient);
     }
-    100%{
+    50%{
         text-decoration-color: transparent;
+    }
+    100%{
+        text-decoration-color: var(--gradient);
     }
 }
 
@@ -103,7 +103,7 @@ nav a:hover {
     content: '';
     width: 0%;
     height: 6px;
-    background: #fae900;
+    background: #ff566f;
     display: block;
     margin: auto;
     transition: 0.3s;
