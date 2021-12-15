@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Mukta', sans-serif;
+}
+
+:root {
+    --gradient: linear-gradient(
+            45deg,
+            #fa5d5d,
+            #d593ff)
+}
+
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position:right;
+    }
+}
+
+body{
+    background-image: var(--gradient);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+    background-position: center;
+    background-size: 250%;
+    animation: bg-animation 3s ease-in-out infinite alternate;
+    background-attachment: fixed;
+
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(219, 171, 75), rgb(252, 10, 10));
+    clip-path: circle(30% at right 70%);
+    z-index: -1;
+}
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-170deg, rgb(255, 255, 255), #fae900);
+    clip-path: circle(20% at 10% 10%);
+    z-index: -1;
+}
+
+.form-sec{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 3em;
+}
+
+fieldset {
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    align-items: center;
+    z-index: 1;
+}
+
+legend{
+    font-size: 1.25em;
+    padding: 0.25em;
+    color: #999;
+    z-index: 1;
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+    z-index: 1;
+}
+
+label:first-of-type{
+    margin-top: 0;
+}
+
+input{
+    padding: .5em;
+    border: 1px solid #999;
+    z-index: 1;
+}
+
+input[type="email"], input[type="text"]{
+    width: 15em;
+    z-index: 1;
+}
+
+textarea{
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: 1px solid #999;
+    z-index: 1;
+}
+
+/*@media screen and (min-width: 430px){*/
+/*    legend{*/
+/*        font-size: 1.75em;*/
+/*    }*/
+
+/*    fieldset{*/
+/*        width: 40%;*/
+/*        min-width: 320px;*/
+/*    }*/
+
+/*    label{*/
+/*        display: inline-block;*/
+/*        padding-top: .5em;*/
+/*        margin-top: 0;*/
+/*        margin-right: .5em;*/
+
+/*    }*/
+/*}*/

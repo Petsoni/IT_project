@@ -232,7 +232,13 @@ p{
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
-.news-col-csgo:hover{
+.news-col-csgo a{
+    color: transparent;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.news-col-csgo:hover a{
     color: white;
     text-decoration: underline;
     text-decoration-color: rgb(201, 148, 2);
@@ -259,7 +265,13 @@ p{
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
-.news-col-lol:hover  {
+.news-col-lol a{
+    color: transparent;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.news-col-lol:hover a {
     color: white;
     font-size: 45px;
     transition: .5s;
@@ -286,7 +298,13 @@ p{
     opacity: 0.5;
 }
 
-.news-col-val:hover  {
+.news-col-val a{
+    color: transparent;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.news-col-val:hover  a{
     font-size: 50px;
     transition: .5s;
     text-decoration: underline;
@@ -518,7 +536,7 @@ p{
 .careers a:hover{
     border-color: tan;
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(160, 239, 0));
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(0, 0, 0));
     background-position: center;
     box-shadow: 4px 4px 5px 0 rgba(0,0,0,.1), 0 1px 10px 10px rgba(0,0,0,.5);
     background-size: 350%;
@@ -534,17 +552,16 @@ p{
 
 /*Contact us*/
 .contactus h1{
-    margin: 1em;
+    margin: 1em 1em 0 1em;
     /*background-color: red;*/
 }
 
 /*Icons Contact us*/
 .contact-icons{
-    margin: 0;
-    padding-left: 5em;
-    height: 10em;
+    margin-bottom: 0;
+    padding-left: 37px;
+    height: 2em;
     display: flex;
-    align-items: left;
     justify-content: left;
 }
 
@@ -641,6 +658,59 @@ p{
 .contact-icons ul li:nth-child(3) span{
     background: #FF0000;
 }
+
+.map-sec .map{
+    padding: 9px;
+    position: relative;
+    text-align: left;
+}
+
+.map-sec {
+    font-size: 56px;
+    padding: 5px 1em 1em 1em;
+}
+
+.map-sec p{
+    font-size: 26px;
+}
+
+footer{
+    background: var(--gradient);
+    background-size: 150%;
+    animation: bg-animation 2s infinite alternate;
+    font-size: 20px;
+}
+
+.row .author{
+    text-align: right;
+    padding-left: 1em;
+}
+
+.row .company{
+    text-align: left;
+    padding-right: 1em;
+}
+
+.message-src{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.message-src a{
+    text-decoration: transparent;
+    color: black;
+    border: 0px solid black;
+    transition: 100ms;
+}
+
+.message-src a:hover{
+    border: 3px solid black;
+    color: white;
+    background: #2b2b2b;
+    transition: 100ms;
+}
+
+
 
 
 /*Small screens*/
