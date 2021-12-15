@@ -42,7 +42,6 @@ body{
     margin: 15rem;
     color: #363636;
     position: relative;
-   
 }
 
 .about-us h1{
@@ -56,9 +55,7 @@ body{
     font-size: 25px;
     font-weight: 450;
     transition: 1000ms ease-in-out;
-
 }
-
 
 .back-btn{
     width: 15%;
@@ -76,7 +73,6 @@ body{
     border: 3px solid black;
     border-radius: 15px;
     transition: 300ms ease-in-out;
-    
 }
 
 .back-btn button:hover{
@@ -102,4 +98,8 @@ span.link{
 .displayMe img{
     width: 100%;
     box-shadow: 2px 2px 5px;
+}
+
+.esports{
+    color: #363636;
 }

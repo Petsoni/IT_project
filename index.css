@@ -228,7 +228,7 @@ p{
     color: transparent;
     transition: .5s;
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0.75;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
@@ -261,7 +261,7 @@ p{
     color: transparent;
     cursor: pointer;
     transition: .5s;
-    opacity: 0.5;
+    opacity: 0.75;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
@@ -295,7 +295,7 @@ p{
     cursor: pointer;
     transition: .5s;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .news-col-val a{
