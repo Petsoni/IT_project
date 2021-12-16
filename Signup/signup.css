@@ -174,9 +174,9 @@ nav a:hover {
 
 .form-box{
     width: 380px;
-    height: 580px;
+    height: 540px;
     position: relative;
-    margin: 3% auto;
+    margin: 1% auto;
     background: #fff;
     padding: 5px;
     overflow: hidden;
@@ -250,6 +250,19 @@ nav a:hover {
     margin: 30px 10px 22px 0;
 
 
+}
+
+footer{
+    background: var(--gradient);
+    background-size: 150%;
+    animation: bg-animation 2s infinite alternate;
+    font-size: 20px;
+
+}
+
+.row .author{
+    text-align: center;
+    padding-left: 1em;
 }
 
 span{

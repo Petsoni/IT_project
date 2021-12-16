@@ -17,30 +17,41 @@
 	<h1>Ask us anything</h1>
 </section>
 
-<section class="form-sec">
-	<form action="#" method="post">
-		<fieldset>
-			<legend>Message</legend>
-			<label for="firstName"></label>
-			<input type="text" name="firstName" id="firstName" placeholder="First Name">
+	<div class="form-div">
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Message</legend>
+				<label for="firstName"></label>
+				<input type="text" name="firstName" id="firstName" placeholder="First Name">
 
-			<label for="surname"></label>
-			<input type="text" name="surname" id="surname" placeholder="Surrname">
+				<label for="surname"></label>
+				<input type="text" name="surname" id="surname" placeholder="Surrname">
 
-			<label for="email"></label>
-			<input type="email" name="email" id="email" placeholder="Email Address">
+				<label for="email"></label>
+				<input type="email" name="email" id="email" placeholder="Email Address">
 
-			<label for="msg"></label>
-			<textarea name="msg" id="msg" placeholder="Message"></textarea>
+				<label for="msg"></label>
+				<textarea name="msg" id="msg" placeholder="Message"></textarea>
 
-			<input type="submit" id="submit" value="Send">
-		</fieldset>
-	</form>
-</section>
+				<button type="button" class="submit-btn" onclick="clicked()">Submit</button>
+			</fieldset>
+		</form>
+	</div>
 
 
+
+<div class="back-btn">
+	<button onClick="goBack()"><arrow_back_ios_new class="material-icons">arrow_back_ios_new</arrow_back_ios_new></button>
+</div>
+
+<footer>
+	<div class="row">
+		<div class="author">@Petar Markovic</div>
+	</div>
+</footer>
 <!--<section class="back-btn">-->
 <!--	<button onClick="goBack()"><arrow_back_ios_new class="material-icons">arrow_back_ios_new</arrow_back_ios_new></button>-->
 <!--</section>-->
+<script src="message-form.js"></script>
 </body>
 </html>

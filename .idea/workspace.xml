@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f7ac92-20a1-4f0a-bdd8-3d67f48407a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Message Form/message-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Message Form/message-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Message Form/message-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About3/about3.css" beforeDir="false" afterPath="$PROJECT_DIR$/About3/about3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/About3/about3.html" beforeDir="false" afterPath="$PROJECT_DIR$/About3/about3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About3/about3.js" beforeDir="false" afterPath="$PROJECT_DIR$/About3/about3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Careers/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/Careers/careers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Careers/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Careers/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Message Form/message-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/Message Form/message-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Message Form/message-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Message Form/message-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Message Form/message-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Message Form/message-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signup/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Signup/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Signup/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Signup/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,8 @@
       <workItem from="1638361531097" duration="595000" />
       <workItem from="1638370128985" duration="1956000" />
       <workItem from="1638537245082" duration="95000" />
-      <workItem from="1639567287167" duration="10145000" />
+      <workItem from="1639567287167" duration="11425000" />
+      <workItem from="1639641894451" duration="5377000" />
     </task>
     <servers />
   </component>
