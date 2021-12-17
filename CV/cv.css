@@ -187,7 +187,7 @@ p{
 
 .back-btn{
     width: 15%;
-    margin-top: 2em;
+    margin-top: 1.3em;
     text-align: center;
     animation: float 2s ease-in-out infinite;
 }
@@ -207,10 +207,13 @@ p{
 }
 
 .back-btn button:hover{
-    background: white;
-    color: black;
-    width: 90px;
-    height: 90px;
     cursor: pointer;
-    transition: 300ms ease-in-out;
+}
+
+footer{
+    background: rgba(43,43,43,0.66);
+    background-size: 150%;
+    animation: bg-animation 2s infinite alternate;
+    font-size: 20px;
+    z-index: 1;
 }
