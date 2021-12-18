@@ -82,6 +82,20 @@ body{
     transition: 300ms ease-in-out;
 }
 
+footer{
+    background: var(--gradient);
+    background-size: 150%;
+    animation: bg-animation 2s infinite alternate;
+    font-size: 20px;
+}
+
+.row .author{
+    text-align: center;
+    padding-left: 1em;
+}
+
+
+
 span.link{
     cursor: pointer;
     text-decoration: underline;

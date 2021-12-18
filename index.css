@@ -228,6 +228,10 @@ p{
     color: transparent;
     transition: .5s;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    font-size: 60px;
+>>>>>>> 022b0f3093f8494f8f7fd7a7652bdc74acb3b299
     opacity: 0.75;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
@@ -242,7 +246,6 @@ p{
     color: white;
     text-decoration: underline;
     text-decoration-color: rgb(201, 148, 2);
-    font-size: 50px;
     transition: 500ms;
     opacity: 1;
 }
@@ -262,6 +265,10 @@ p{
     cursor: pointer;
     transition: .5s;
     opacity: 0.75;
+<<<<<<< HEAD
+=======
+    font-size: 55px;
+>>>>>>> 022b0f3093f8494f8f7fd7a7652bdc74acb3b299
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
@@ -273,7 +280,7 @@ p{
 
 .news-col-lol:hover a {
     color: white;
-    font-size: 45px;
+    /*font-size: 45px;*/
     transition: .5s;
     text-decoration: underline;
     text-decoration-color: rgb(118, 184, 245);
@@ -294,6 +301,7 @@ p{
     color: transparent;
     cursor: pointer;
     transition: .5s;
+    font-size: 60px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
     opacity: 0.75;
 }
@@ -305,7 +313,6 @@ p{
 }
 
 .news-col-val:hover  a{
-    font-size: 50px;
     transition: .5s;
     text-decoration: underline;
     text-decoration-color: rgb(255, 126, 126);
