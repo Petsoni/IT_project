@@ -228,7 +228,10 @@ p{
     color: transparent;
     transition: .5s;
     cursor: pointer;
+<<<<<<< HEAD
+=======
     font-size: 60px;
+>>>>>>> 022b0f3093f8494f8f7fd7a7652bdc74acb3b299
     opacity: 0.75;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
@@ -262,7 +265,10 @@ p{
     cursor: pointer;
     transition: .5s;
     opacity: 0.75;
+<<<<<<< HEAD
+=======
     font-size: 55px;
+>>>>>>> 022b0f3093f8494f8f7fd7a7652bdc74acb3b299
     box-shadow: -30px 30px 20px rgba(0,0,0,0.6);
 }
 
