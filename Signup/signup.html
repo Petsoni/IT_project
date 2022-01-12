@@ -36,17 +36,17 @@
                     <button type="button" class="toggle-btn" onClick="register()">Register</button>
                 </div>
                 <form id="login" class="input-group">
-                    <input type="text" class="input-field-email" id="email" placeholder="Email" required>
-                    <input type="password" class="input-field-password" id="password" placeholder="Password" required>
+                    <input type="email" class="input-field" id="email" placeholder="Email" required>
+                    <input type="password" class="input-field" id="password" placeholder="Password" required>
                     <input type="checkbox" class="check-box"><span>Remeber Password</span>
                     <button type="button" class="submit-btn" onclick="validation()">Login</button>
                 </form>
                 <form id="register" class="input-group">
-                    <input type="text" class="input-field" placeholder="Username" required>
-                    <input type="text" class="input-field" placeholder="Email" required>
-                    <input type="text" class="input-field" placeholder="Password" required> 
+                    <input type="text" class="input-field" id="usernameReg" placeholder="Username" required>
+                    <input type="email" class="input-field" id="emailReg" placeholder="Email" required>
+                    <input type="password" class="input-field" id="passwordReg" placeholder="Password" required>
                     <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
-                    <button type="button" class="submit-btn">Register</button>
+                    <button type="button" class="submit-btn" onclick="registerValidation()">Register</button>
                 </form>
             </div>
 

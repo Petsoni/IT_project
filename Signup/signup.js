@@ -26,3 +26,18 @@ function validation() {
         alert('Incorrect email or password!')
     }
 }
+
+function registerValidation() {
+    let usernameReg = document.getElementById("usernameReg").value;
+    let mailReg = document.getElementById("emailReg").value;
+    let passwordReg = document.getElementById("passwordReg").value;
+
+    if (usernameReg === "" || mailReg === "" || passwordReg === "") {
+        alert('Fill out all the necessary fields!!!');
+    } else {
+        alert('Registered successfully');
+        document.getElementById('usernameReg').value = "";
+        document.getElementById('emailReg').value = "";
+        document.getElementById('passwordReg').value = "";
+    }
+}
